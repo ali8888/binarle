@@ -15,4 +15,3 @@ $ cd wordle
 $ npm install
 $ npm run start
 ```
-
