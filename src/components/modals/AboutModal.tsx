@@ -61,7 +61,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      This is an open source clone of the game Wordle -{' '}
+                      This is an open source clone of the game Primel, which is an open source clone of Wordle -{' '}
                       <a
                         href="https://github.com/dill/primel"
                         className="underline font-bold"

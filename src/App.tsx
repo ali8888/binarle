@@ -81,9 +81,9 @@ function App() {
 
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <Alert message="Not a 5 digit prime" isOpen={isWordNotFoundAlertOpen} />
+      <Alert message="Not a binary number" isOpen={isWordNotFoundAlertOpen} />
       <Alert
-        message={`You lost, the word was ${solution}`}
+        message={`You lost, the number was ${solution}`}
         isOpen={isGameLost}
       />
       <Alert
@@ -92,7 +92,7 @@ function App() {
         variant="success"
       />
       <div className="flex w-80 mx-auto items-center mb-8">
-        <h1 className="text-xl grow font-bold">Primel (modified)</h1>
+        <h1 className="text-xl grow font-bold">Binarle</h1>
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
           onClick={() => setIsInfoModalOpen(true)}

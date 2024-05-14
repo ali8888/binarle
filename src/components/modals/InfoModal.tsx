@@ -62,42 +62,42 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Guess the prime in 6 tries. After each guess, the color
-                      of the tiles will change to show how close your guess was
-                      to the prime.
+                      Guess the binary number in 6 tries. After each guess, the color
+                      of the tiles will change to show how close your guess was to
+                      the number.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="7" status="correct" />
+                      <Cell value="0" status="correct" />
                       <Cell value="1" />
-                      <Cell value="4" />
-                      <Cell value="2" />
-                      <Cell value="9" />
-                    </div>
-                    <p className="text-sm text-gray-500">
-                      The 7 is in the prime and in the correct spot.
-                    </p>
-
-                    <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="7" />
-                      <Cell value="3" />
-                      <Cell value="0" status="present" />
-                      <Cell value="6" />
                       <Cell value="1" />
-                    </div>
-                    <p className="text-sm text-gray-500">
-                      The 0 is in the prime but in the wrong spot.
-                    </p>
-
-                    <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="2" />
                       <Cell value="0" />
-                      <Cell value="6" />
-                      <Cell value="3" status="absent" />
-                      <Cell value="9" />
+                      <Cell value="0" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The 3 is not in the prime in any spot.
+                      The 0 is in the number and in the correct spot.
+                    </p>
+
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="1" />
+                      <Cell value="0" />
+                      <Cell value="1" status="present" />
+                      <Cell value="1" />
+                      <Cell value="0" />
+                    </div>
+                    <p className="text-sm text-gray-500">
+                      The 1 is in the number but in the wrong spot.
+                    </p>
+
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="0" />
+                      <Cell value="1" />
+                      <Cell value="1" />
+                      <Cell value="0" status="absent" />
+                      <Cell value="1" />
+                    </div>
+                    <p className="text-sm text-gray-500">
+                      The 0 is not in the number in any spot.
                     </p>
                   </div>
                 </div>
