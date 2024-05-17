@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/binarle/static/css/main.ccedc51c.css",
-    "main.js": "/binarle/static/js/main.41f459e6.js",
+    "main.js": "/binarle/static/js/main.a0ac7364.js",
     "static/js/787.3500bfec.chunk.js": "/binarle/static/js/787.3500bfec.chunk.js",
     "index.html": "/binarle/index.html",
     "main.ccedc51c.css.map": "/binarle/static/css/main.ccedc51c.css.map",
-    "main.41f459e6.js.map": "/binarle/static/js/main.41f459e6.js.map",
+    "main.a0ac7364.js.map": "/binarle/static/js/main.a0ac7364.js.map",
     "787.3500bfec.chunk.js.map": "/binarle/static/js/787.3500bfec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccedc51c.css",
-    "static/js/main.41f459e6.js"
+    "static/js/main.a0ac7364.js"
   ]
 }
